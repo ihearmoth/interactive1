@@ -1,0 +1,46 @@
+body{
+	background: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	color:red;
+}
+
+a{ 
+	color:red; 
+}
+
+h1{
+	font-family: 'Slabo 27px', serif;
+}
+
+p:hover, a:hover {
+    background-color: yellow;
+}
+
+#intro{ 
+	padding: 20px;
+	border: 1px solid red;
+ }
+
+ #header{
+ 	margin: 5px;
+ 	position: fixed;
+ 	/*border: 1px solid blue; */
+ 	padding: 2px;
+ 	background: yellow;
+ 	color: white;
+}
+
+img.resize{
+	margin: 10px;
+    max-width: 65%;
+ }
+
+.explanation{
+	max-width: 60%;
+	text-align: center;
+	margin: 10px;
+	overflow-y: scroll;
+}

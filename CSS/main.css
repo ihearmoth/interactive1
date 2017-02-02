@@ -4,3 +4,8 @@ body{
 h1 {
 	color:red;
 }
+
+#desktop { width: 500px;
+	padding: 40px;
+	border: 1px solid red;
+ }
