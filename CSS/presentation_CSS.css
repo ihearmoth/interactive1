@@ -31,6 +31,14 @@ p:hover, a:hover {
  	padding: 2px;
  	background: yellow;
  	color: white;
+ 	max-width: 50%;
+}
+
+.explanation{
+	max-width: 60%;
+	text-align: center;
+	margin: 10px;
+
 }
 
 img.resize{
@@ -38,9 +46,18 @@ img.resize{
     max-width: 65%;
  }
 
-.explanation{
-	max-width: 60%;
-	text-align: center;
-	margin: 10px;
-	overflow-y: scroll;
+ img.floater{
+	position:fixed
+	width: 20px;
 }
+
+ #topleft{
+ 	margin-top: 20px;
+ 	margin-left: 15px;
+ }
+
+ #topright{
+ 	margin-top: 40px;
+ 	margin-right: 15px;
+ }
+
